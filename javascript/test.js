@@ -41,3 +41,9 @@ let isLoggedIn = false  //boolean true/false
 //"33abc"->NaN
 //true ->1 ; false ->0
 
+console.log("1"+2) ; //12
+console.log(1+"2") ; //12
+console.log("1"+2+2); //122
+console.log(2+2+"1"); //41
+//if string is first it will covert into string.
+//if integer is first it convert into into then string will added.
